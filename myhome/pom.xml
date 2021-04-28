@@ -8,9 +8,21 @@
 		<version>2.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	<repositories>
+    <repository>
+        <id>spring-releases</id>
+        <url>https://repo.spring.io/libs-release</url>
+    </repository>
+	</repositories>
+	<pluginRepositories>
+	    <pluginRepository>
+	        <id>spring-releases</id>
+	        <url>https://repo.spring.io/libs-release</url>
+	    </pluginRepository>
+	</pluginRepositories>
 	<groupId>com.gatocoder</groupId>
 	<artifactId>myhome</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>myhome</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
